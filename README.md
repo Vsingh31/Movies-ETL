@@ -1,1 +1,3 @@
 # Movies-ETL
+## Purpose of Movies-ETL repository
+The Purpose of Movies-ETL repository to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. I refactored the code from this module to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database. For deliverable 1,I wrote an ETL Function to Read Three Data Files.For deliverable 2,Extract and Transform the Wikipedia Data.For deliverable 3,Extract and Transform the Kaggle data and at last for deliverable 4,Create the Movie_data Database.
